@@ -1,0 +1,22 @@
+{
+  "name": "my-vue-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.9.1",
+    "meizi-logger": "^1.0.4",
+    "three": "^0.135.0",
+    "three-obj-mtl-loader": "^1.0.3",
+    "vue": "^3.2.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "unplugin-auto-import": "^0.5.11",
+    "vite": "^2.7.12",
+    "vite-plugin-vue-setup-extend": "^0.3.0"
+  }
+}
