@@ -66,16 +66,16 @@ export default function StartSaturn() {
     this.ringGroup.add(this.ringShadownMesh);
 
     // 调整土星环的角度
-    this.ringGroup.rotation.x = 1.7;
-    this.ringGroup.rotation.y = 0.2;
+    this.ringGroup.rotation.x = 2.1;
+    this.ringGroup.rotation.y = 0.5;
 
     // 添加环
     this.group.add(this.ringGroup);
 
     // 初始化缩放
-    this.group.scale.x = 1;
-    this.group.scale.y = 1;
-    this.group.scale.z = 1;
+    this.group.scale.x = 0.5;
+    this.group.scale.y = 0.5;
+    this.group.scale.z = 0.5;
 
     // 初始化位置为画外
     this.group.position.x = 0;
